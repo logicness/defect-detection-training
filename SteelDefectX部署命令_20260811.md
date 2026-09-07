@@ -22,18 +22,18 @@ python scripts/deploy_sdx_to_nano.py --dry-run   # 先预览
 python scripts/deploy_sdx_to_nano.py              # 实际执行
 ```
 
-支持参数：`--nano-host 192.168.1.101` `--nano-user nvidia` `--dry-run`
+支持参数：`--nano-host <NANO_LAN_IP>` `--nano-user nvidia` `--dry-run`
 
 脚本自动完成：上传 ONNX → 编译 FP16 engine → 备份原配置 → 修改 trt_infer.py → 更新 systemd → 重启验证
 
 ---
 
-## 手动部署步骤（192.168.1.101，用户 nvidia）
+## 手动部署步骤（<NANO_LAN_IP>，用户 nvidia）
 
 ### Step 1：上传 ONNX
 ```bash
 # Windows PowerShell
-scp "D:\RK3568&Orin Nano\ORIN NANO\Model Training\SteelDefectX_v8s_25c_256_clean.onnx" nvidia@192.168.1.101:/home/nvidia/defect_detection/models/neu/
+scp "D:\RK3568&Orin Nano\ORIN NANO\Model Training\SteelDefectX_v8s_25c_256_clean.onnx" nvidia@<NANO_LAN_IP>:/home/nvidia/defect_detection/models/neu/
 ```
 
 ### Step 2：编译 TensorRT Engine（Nano 上执行）

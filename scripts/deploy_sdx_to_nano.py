@@ -10,12 +10,12 @@ SteelDefectX Nano 部署脚本
 - systemd ExecStart 指向 server/infer_server.py（不是 trt_infer.py）
 
 用法：
-  python deploy_sdx_to_nano.py [--nano-host 192.168.1.101] [--nano-user nvidia] [--dry-run]
+  python deploy_sdx_to_nano.py [--nano-host <NANO_LAN_IP>] [--nano-user nvidia] [--dry-run]
 """
 import argparse, os, sys, time, re, subprocess
 
 # ============ 配置 ============
-NANO_HOST = "192.168.1.101"
+NANO_HOST = "<NANO_LAN_IP>"
 NANO_USER = "nvidia"
 NANO_MODEL_DIR = "/home/nvidia/defect_detection/models/neu"
 TRTEXEC = "/usr/src/tensorrt/bin/trtexec"

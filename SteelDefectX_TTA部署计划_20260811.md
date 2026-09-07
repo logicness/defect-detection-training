@@ -77,7 +77,7 @@ Bright scratch / Crazing / Crease / Crescent gap / Dark scratches / Finishing ro
 ---
 
 ## Nano 连接信息
-- IP：192.168.1.101
+- IP：<NANO_LAN_IP>
 - 用户：nvidia
 - 模型目录：`/home/nvidia/defect_detection/models/neu/`
 - trtexec 路径：`/usr/src/tensorrt/bin/trtexec`
