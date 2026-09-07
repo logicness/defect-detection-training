@@ -1,0 +1,446 @@
+{
+  "names": [
+    "Bright scratch",
+    "Crazing",
+    "Crease",
+    "Crescent gap",
+    "Dark scratches",
+    "Finishing roll printing",
+    "Inclusion",
+    "Iron scale compression",
+    "Iron sheet ash",
+    "Oil spot",
+    "Oxide scale of plate system",
+    "Oxide scale of temperature system",
+    "Patches",
+    "Pitted surface",
+    "Punching",
+    "Red iron sheet",
+    "Rolled in scale",
+    "Rolled pit",
+    "Secondary rust skin",
+    "Silk spot",
+    "Slag inclusion",
+    "Waist folding",
+    "Water spot",
+    "Welding line",
+    "White rust",
+    "cutting_opening",
+    "water_slag_mark",
+    "slag_skin",
+    "longitudinal_crack",
+    "warp",
+    "external_fold",
+    "wrinkle",
+    "blocky_scale",
+    "striated_scale",
+    "foreign_obj",
+    "blowhole",
+    "break",
+    "fray",
+    "uneven"
+  ],
+  "nc": 39,
+  "splits": {
+    "train": {
+      "label_files": 18593,
+      "per_class": {
+        "Bright scratch": {
+          "boxes": 3943,
+          "images": 1313,
+          "boxes_per_image": 3.0
+        },
+        "Crazing": {
+          "boxes": 2214,
+          "images": 1274,
+          "boxes_per_image": 1.74
+        },
+        "Crease": {
+          "boxes": 174,
+          "images": 96,
+          "boxes_per_image": 1.81
+        },
+        "Crescent gap": {
+          "boxes": 404,
+          "images": 403,
+          "boxes_per_image": 1.0
+        },
+        "Dark scratches": {
+          "boxes": 930,
+          "images": 466,
+          "boxes_per_image": 2.0
+        },
+        "Finishing roll printing": {
+          "boxes": 291,
+          "images": 143,
+          "boxes_per_image": 2.03
+        },
+        "Inclusion": {
+          "boxes": 6100,
+          "images": 2099,
+          "boxes_per_image": 2.91
+        },
+        "Iron scale compression": {
+          "boxes": 132,
+          "images": 132,
+          "boxes_per_image": 1.0
+        },
+        "Iron sheet ash": {
+          "boxes": 277,
+          "images": 86,
+          "boxes_per_image": 3.22
+        },
+        "Oil spot": {
+          "boxes": 1683,
+          "images": 557,
+          "boxes_per_image": 3.02
+        },
+        "Oxide scale of plate system": {
+          "boxes": 45,
+          "images": 45,
+          "boxes_per_image": 1.0
+        },
+        "Oxide scale of temperature system": {
+          "boxes": 143,
+          "images": 143,
+          "boxes_per_image": 1.0
+        },
+        "Patches": {
+          "boxes": 3351,
+          "images": 1419,
+          "boxes_per_image": 2.36
+        },
+        "Pitted surface": {
+          "boxes": 3016,
+          "images": 1265,
+          "boxes_per_image": 2.38
+        },
+        "Punching": {
+          "boxes": 563,
+          "images": 563,
+          "boxes_per_image": 1.0
+        },
+        "Red iron sheet": {
+          "boxes": 278,
+          "images": 278,
+          "boxes_per_image": 1.0
+        },
+        "Rolled in scale": {
+          "boxes": 2373,
+          "images": 1253,
+          "boxes_per_image": 1.89
+        },
+        "Rolled pit": {
+          "boxes": 164,
+          "images": 71,
+          "boxes_per_image": 2.31
+        },
+        "Secondary rust skin": {
+          "boxes": 333,
+          "images": 139,
+          "boxes_per_image": 2.4
+        },
+        "Silk spot": {
+          "boxes": 1158,
+          "images": 1026,
+          "boxes_per_image": 1.13
+        },
+        "Slag inclusion": {
+          "boxes": 893,
+          "images": 278,
+          "boxes_per_image": 3.21
+        },
+        "Waist folding": {
+          "boxes": 3009,
+          "images": 262,
+          "boxes_per_image": 11.48
+        },
+        "Water spot": {
+          "boxes": 1314,
+          "images": 752,
+          "boxes_per_image": 1.75
+        },
+        "Welding line": {
+          "boxes": 805,
+          "images": 794,
+          "boxes_per_image": 1.01
+        },
+        "White rust": {
+          "boxes": 750,
+          "images": 108,
+          "boxes_per_image": 6.94
+        },
+        "cutting_opening": {
+          "boxes": 109,
+          "images": 109,
+          "boxes_per_image": 1.0
+        },
+        "water_slag_mark": {
+          "boxes": 102,
+          "images": 89,
+          "boxes_per_image": 1.15
+        },
+        "slag_skin": {
+          "boxes": 137,
+          "images": 103,
+          "boxes_per_image": 1.33
+        },
+        "longitudinal_crack": {
+          "boxes": 104,
+          "images": 96,
+          "boxes_per_image": 1.08
+        },
+        "warp": {
+          "boxes": 124,
+          "images": 110,
+          "boxes_per_image": 1.13
+        },
+        "external_fold": {
+          "boxes": 102,
+          "images": 102,
+          "boxes_per_image": 1.0
+        },
+        "wrinkle": {
+          "boxes": 185,
+          "images": 113,
+          "boxes_per_image": 1.64
+        },
+        "blocky_scale": {
+          "boxes": 104,
+          "images": 98,
+          "boxes_per_image": 1.06
+        },
+        "striated_scale": {
+          "boxes": 98,
+          "images": 98,
+          "boxes_per_image": 1.0
+        },
+        "foreign_obj": {
+          "boxes": 134,
+          "images": 96,
+          "boxes_per_image": 1.4
+        },
+        "blowhole": {
+          "boxes": 1061,
+          "images": 1046,
+          "boxes_per_image": 1.01
+        },
+        "break": {
+          "boxes": 2618,
+          "images": 954,
+          "boxes_per_image": 2.74
+        },
+        "fray": {
+          "boxes": 1509,
+          "images": 1028,
+          "boxes_per_image": 1.47
+        },
+        "uneven": {
+          "boxes": 546,
+          "images": 529,
+          "boxes_per_image": 1.03
+        }
+      }
+    },
+    "val": {
+      "label_files": 5096,
+      "per_class": {
+        "Bright scratch": {
+          "boxes": 1010,
+          "images": 348,
+          "boxes_per_image": 2.9
+        },
+        "Crazing": {
+          "boxes": 529,
+          "images": 317,
+          "boxes_per_image": 1.67
+        },
+        "Crease": {
+          "boxes": 65,
+          "images": 32,
+          "boxes_per_image": 2.03
+        },
+        "Crescent gap": {
+          "boxes": 106,
+          "images": 106,
+          "boxes_per_image": 1.0
+        },
+        "Dark scratches": {
+          "boxes": 264,
+          "images": 154,
+          "boxes_per_image": 1.71
+        },
+        "Finishing roll printing": {
+          "boxes": 118,
+          "images": 60,
+          "boxes_per_image": 1.97
+        },
+        "Inclusion": {
+          "boxes": 1724,
+          "images": 575,
+          "boxes_per_image": 3.0
+        },
+        "Iron scale compression": {
+          "boxes": 54,
+          "images": 54,
+          "boxes_per_image": 1.0
+        },
+        "Iron sheet ash": {
+          "boxes": 139,
+          "images": 36,
+          "boxes_per_image": 3.86
+        },
+        "Oil spot": {
+          "boxes": 590,
+          "images": 191,
+          "boxes_per_image": 3.09
+        },
+        "Oxide scale of plate system": {
+          "boxes": 18,
+          "images": 18,
+          "boxes_per_image": 1.0
+        },
+        "Oxide scale of temperature system": {
+          "boxes": 60,
+          "images": 60,
+          "boxes_per_image": 1.0
+        },
+        "Patches": {
+          "boxes": 861,
+          "images": 360,
+          "boxes_per_image": 2.39
+        },
+        "Pitted surface": {
+          "boxes": 747,
+          "images": 320,
+          "boxes_per_image": 2.33
+        },
+        "Punching": {
+          "boxes": 165,
+          "images": 165,
+          "boxes_per_image": 1.0
+        },
+        "Red iron sheet": {
+          "boxes": 119,
+          "images": 119,
+          "boxes_per_image": 1.0
+        },
+        "Rolled in scale": {
+          "boxes": 554,
+          "images": 314,
+          "boxes_per_image": 1.76
+        },
+        "Rolled pit": {
+          "boxes": 52,
+          "images": 25,
+          "boxes_per_image": 2.08
+        },
+        "Secondary rust skin": {
+          "boxes": 153,
+          "images": 59,
+          "boxes_per_image": 2.59
+        },
+        "Silk spot": {
+          "boxes": 304,
+          "images": 286,
+          "boxes_per_image": 1.06
+        },
+        "Slag inclusion": {
+          "boxes": 307,
+          "images": 103,
+          "boxes_per_image": 2.98
+        },
+        "Waist folding": {
+          "boxes": 1153,
+          "images": 76,
+          "boxes_per_image": 15.17
+        },
+        "Water spot": {
+          "boxes": 439,
+          "images": 260,
+          "boxes_per_image": 1.69
+        },
+        "Welding line": {
+          "boxes": 219,
+          "images": 219,
+          "boxes_per_image": 1.0
+        },
+        "White rust": {
+          "boxes": 232,
+          "images": 45,
+          "boxes_per_image": 5.16
+        },
+        "cutting_opening": {
+          "boxes": 23,
+          "images": 23,
+          "boxes_per_image": 1.0
+        },
+        "water_slag_mark": {
+          "boxes": 29,
+          "images": 25,
+          "boxes_per_image": 1.16
+        },
+        "slag_skin": {
+          "boxes": 41,
+          "images": 28,
+          "boxes_per_image": 1.46
+        },
+        "longitudinal_crack": {
+          "boxes": 28,
+          "images": 26,
+          "boxes_per_image": 1.08
+        },
+        "warp": {
+          "boxes": 24,
+          "images": 23,
+          "boxes_per_image": 1.04
+        },
+        "external_fold": {
+          "boxes": 25,
+          "images": 25,
+          "boxes_per_image": 1.0
+        },
+        "wrinkle": {
+          "boxes": 46,
+          "images": 29,
+          "boxes_per_image": 1.59
+        },
+        "blocky_scale": {
+          "boxes": 25,
+          "images": 22,
+          "boxes_per_image": 1.14
+        },
+        "striated_scale": {
+          "boxes": 22,
+          "images": 22,
+          "boxes_per_image": 1.0
+        },
+        "foreign_obj": {
+          "boxes": 33,
+          "images": 24,
+          "boxes_per_image": 1.38
+        },
+        "blowhole": {
+          "boxes": 225,
+          "images": 225,
+          "boxes_per_image": 1.0
+        },
+        "break": {
+          "boxes": 343,
+          "images": 198,
+          "boxes_per_image": 1.73
+        },
+        "fray": {
+          "boxes": 246,
+          "images": 215,
+          "boxes_per_image": 1.14
+        },
+        "uneven": {
+          "boxes": 90,
+          "images": 90,
+          "boxes_per_image": 1.0
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,254 @@
+{
+  "tag": "prod_v2_b2",
+  "model": "D:\\RK3588&Orin Nano\\ORIN NANO\\Model Training\\runs\\detect\\prod_v2_b2\\weights\\best.pt",
+  "yaml": "D:\\RK3588&Orin Nano\\ORIN NANO\\Model Training\\datasets\\_eval\\um39_val_35c.yaml",
+  "map50": 0.7855,
+  "map50_95": 0.566,
+  "per_class": {
+    "Bright scratch": {
+      "class_id": 0,
+      "map50": 0.5624,
+      "map50_95": 0.3305,
+      "precision": 0.6257,
+      "recall": 0.4535
+    },
+    "Crazing": {
+      "class_id": 1,
+      "map50": 0.6116,
+      "map50_95": 0.4909,
+      "precision": 0.7086,
+      "recall": 0.4367
+    },
+    "Crease": {
+      "class_id": 2,
+      "map50": 0.6332,
+      "map50_95": 0.3847,
+      "precision": 0.7073,
+      "recall": 0.5472
+    },
+    "Crescent gap": {
+      "class_id": 3,
+      "map50": 0.995,
+      "map50_95": 0.9572,
+      "precision": 1.0,
+      "recall": 1.0
+    },
+    "Dark scratches": {
+      "class_id": 4,
+      "map50": 0.7642,
+      "map50_95": 0.4303,
+      "precision": 0.816,
+      "recall": 0.6553
+    },
+    "Finishing roll printing": {
+      "class_id": 5,
+      "map50": 0.6577,
+      "map50_95": 0.4706,
+      "precision": 0.5906,
+      "recall": 0.6356
+    },
+    "Inclusion": {
+      "class_id": 6,
+      "map50": 0.738,
+      "map50_95": 0.4391,
+      "precision": 0.6348,
+      "recall": 0.7396
+    },
+    "Iron scale compression": {
+      "class_id": 7,
+      "map50": 0.8823,
+      "map50_95": 0.698,
+      "precision": 0.7619,
+      "recall": 0.8889
+    },
+    "Iron sheet ash": {
+      "class_id": 8,
+      "map50": 0.7051,
+      "map50_95": 0.3705,
+      "precision": 0.5732,
+      "recall": 0.6763
+    },
+    "Oil spot": {
+      "class_id": 9,
+      "map50": 0.8597,
+      "map50_95": 0.6456,
+      "precision": 0.7992,
+      "recall": 0.8292
+    },
+    "Oxide scale of plate system": {
+      "class_id": 10,
+      "map50": 0.938,
+      "map50_95": 0.7173,
+      "precision": 0.8947,
+      "recall": 0.9444
+    },
+    "Oxide scale of temperature system": {
+      "class_id": 11,
+      "map50": 0.9945,
+      "map50_95": 0.8889,
+      "precision": 0.9836,
+      "recall": 1.0
+    },
+    "Patches": {
+      "class_id": 12,
+      "map50": 0.8223,
+      "map50_95": 0.6322,
+      "precision": 0.8085,
+      "recall": 0.7549
+    },
+    "Pitted surface": {
+      "class_id": 13,
+      "map50": 0.6289,
+      "map50_95": 0.4613,
+      "precision": 0.7167,
+      "recall": 0.5047
+    },
+    "Punching": {
+      "class_id": 14,
+      "map50": 0.995,
+      "map50_95": 0.9182,
+      "precision": 0.9835,
+      "recall": 1.0
+    },
+    "Red iron sheet": {
+      "class_id": 15,
+      "map50": 0.9836,
+      "map50_95": 0.9249,
+      "precision": 0.928,
+      "recall": 0.9748
+    },
+    "Rolled in scale": {
+      "class_id": 16,
+      "map50": 0.7118,
+      "map50_95": 0.5293,
+      "precision": 0.7333,
+      "recall": 0.6552
+    },
+    "Rolled pit": {
+      "class_id": 17,
+      "map50": 0.5779,
+      "map50_95": 0.3995,
+      "precision": 0.75,
+      "recall": 0.3871
+    },
+    "Secondary rust skin": {
+      "class_id": 18,
+      "map50": 0.6312,
+      "map50_95": 0.3989,
+      "precision": 0.65,
+      "recall": 0.5948
+    },
+    "Silk spot": {
+      "class_id": 19,
+      "map50": 0.9075,
+      "map50_95": 0.7987,
+      "precision": 0.858,
+      "recall": 0.8728
+    },
+    "Slag inclusion": {
+      "class_id": 20,
+      "map50": 0.5933,
+      "map50_95": 0.3577,
+      "precision": 0.5324,
+      "recall": 0.6156
+    },
+    "Waist folding": {
+      "class_id": 21,
+      "map50": 0.3112,
+      "map50_95": 0.1323,
+      "precision": 0.4719,
+      "recall": 0.1919
+    },
+    "Water spot": {
+      "class_id": 22,
+      "map50": 0.7948,
+      "map50_95": 0.6297,
+      "precision": 0.7616,
+      "recall": 0.7202
+    },
+    "Welding line": {
+      "class_id": 23,
+      "map50": 0.9796,
+      "map50_95": 0.5355,
+      "precision": 0.9423,
+      "recall": 0.98
+    },
+    "White rust": {
+      "class_id": 24,
+      "map50": 0.6812,
+      "map50_95": 0.3443,
+      "precision": 0.6432,
+      "recall": 0.6293
+    },
+    "cutting_opening": {
+      "class_id": 25,
+      "map50": 0.995,
+      "map50_95": 0.7161,
+      "precision": 1.0,
+      "recall": 1.0
+    },
+    "water_slag_mark": {
+      "class_id": 26,
+      "map50": 0.9128,
+      "map50_95": 0.7282,
+      "precision": 0.8065,
+      "recall": 0.8621
+    },
+    "slag_skin": {
+      "class_id": 27,
+      "map50": 0.8352,
+      "map50_95": 0.6197,
+      "precision": 0.75,
+      "recall": 0.8049
+    },
+    "longitudinal_crack": {
+      "class_id": 28,
+      "map50": 0.9048,
+      "map50_95": 0.5213,
+      "precision": 0.9231,
+      "recall": 0.8571
+    },
+    "warp": {
+      "class_id": 29,
+      "map50": 0.6458,
+      "map50_95": 0.3806,
+      "precision": 1.0,
+      "recall": 0.2917
+    },
+    "external_fold": {
+      "class_id": 30,
+      "map50": 0.7908,
+      "map50_95": 0.4364,
+      "precision": 0.7037,
+      "recall": 0.76
+    },
+    "wrinkle": {
+      "class_id": 31,
+      "map50": 0.7708,
+      "map50_95": 0.4164,
+      "precision": 0.7692,
+      "recall": 0.6522
+    },
+    "blocky_scale": {
+      "class_id": 32,
+      "map50": 0.8062,
+      "map50_95": 0.6241,
+      "precision": 0.76,
+      "recall": 0.76
+    },
+    "striated_scale": {
+      "class_id": 33,
+      "map50": 0.9201,
+      "map50_95": 0.7793,
+      "precision": 0.8636,
+      "recall": 0.8636
+    },
+    "foreign_obj": {
+      "class_id": 34,
+      "map50": 0.9508,
+      "map50_95": 0.7028,
+      "precision": 0.8158,
+      "recall": 0.9394
+    }
+  }
+}

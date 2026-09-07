@@ -1,0 +1,15 @@
+# um39 训练数据配置（路径修正版：原 data.yaml 的 path 仍指向旧盘符 RK3568）
+path: <LOCAL_MODEL_PATH>/datasets/Universal_Metal_39
+train: train/images
+val: val/images
+nc: 39
+names: [
+  "Bright scratch", "Crazing", "Crease", "Crescent gap", "Dark scratches",
+  "Finishing roll printing", "Inclusion", "Iron scale compression", "Iron sheet ash",
+  "Oil spot", "Oxide scale of plate system", "Oxide scale of temperature system",
+  "Patches", "Pitted surface", "Punching", "Red iron sheet", "Rolled in scale",
+  "Rolled pit", "Secondary rust skin", "Silk spot", "Slag inclusion", "Waist folding",
+  "Water spot", "Welding line", "White rust", "cutting_opening", "water_slag_mark",
+  "slag_skin", "longitudinal_crack", "warp", "external_fold", "wrinkle",
+  "blocky_scale", "striated_scale", "foreign_obj", "blowhole", "break", "fray", "uneven"
+]
