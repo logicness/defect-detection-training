@@ -10,7 +10,7 @@ Training scripts, evaluation tools, and experiment records for industrial surfac
 - **Block training** — staged fine-tuning with configurable learning rates per block, supporting resume from any checkpoint
 - **Production model training** — dedicated scripts for production-grade models with class balancing, weak-class augmentation, and background false-positive testing
 - **Comprehensive evaluation** — per-class mAP analysis, confusion matrix generation, cross-model comparison, and TTA (test-time augmentation) inference
-- **Deployment utilities** — ONNX export, TensorRT compilation helpers, and Nano device deployment scripts
+- **Deployment utilities** — ONNX export and TensorRT compilation helpers
 
 ## Prerequisites
 
@@ -49,11 +49,10 @@ python scripts/eval_model.py --weights runs/detect/train/weights/best.pt
 │   ├── train/                 # Production model training scripts
 │   │   ├── train_production_v2.py    # Main production training pipeline
 │   │   ├── univ39_block.py           # Block training for 39-class model
-│   │   └── ...
+│   │   └── um39_train.yaml           # Training configuration
 │   ├── eval/                  # Evaluation and comparison tools
 │   │   ├── gen_compare_v8m_v11m.py   # YOLOv8m vs v11m comparison
-│   │   ├── gen_final_reports.py      # Final evaluation reports
-│   │   └── ...
+│   │   └── gen_final_reports.py      # Final evaluation reports
 │   ├── dataset/               # Dataset download, merge, and augmentation
 │   │   ├── download_public_datasets.py
 │   │   ├── build_production_v21.py   # Production v2.1 dataset builder
@@ -64,10 +63,12 @@ python scripts/eval_model.py --weights runs/detect/train/weights/best.pt
 │       ├── diagnose_confusion.py     # Confusion matrix analysis
 │       └── test_background_fp.py     # Background false-positive test
 ├── *.py                       # Top-level training and evaluation scripts
-├── *.yaml                     # Dataset and model configuration
-├── *.md                       # Experiment records and analysis reports
-└── LICENSE
+├── neu.yaml                   # NEU-DET dataset configuration
+├── LICENSE
+└── README.md
 ```
+
+> **Not included:** Experiment reports, diagnostic data (annotation renders, confusion matrices, label audits), evaluation result JSONs, and device deployment scripts are available in the private companion repository.
 
 ## Configuration
 
